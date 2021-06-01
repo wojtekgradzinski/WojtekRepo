@@ -1,2 +1,2 @@
 # WojtekRepo
- Artificial Engineer
+ AI Engineer
