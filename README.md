@@ -3,7 +3,7 @@
 - 😃 Welcome to my profile
 - 👋 I’m Wojtek 
 - 💻 I’m interested in Data Science and Crypto Trading especially DeFi
-- 👨‍🎓 I currently study AI Enginnering
+- 👨‍🎓 Currently studying AI Enginnering
 - ✉️: Reach me at wojtekgradzinski@mail.com or https://twitter.com/WojcieszekGra
 
 
