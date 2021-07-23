@@ -116,6 +116,7 @@ x_train, x_val, y_train, y_val = model_selection.train_test_split(x, y,
 
 
 
+
 extra_sample = gen.sample(gen.shape[0] // 3)
 x_train = pd.concat([x_train, extra_sample.drop(['cnt'], axis=1 ) ])
 y_train = pd.concat([y_train, extra_sample['cnt'] ])

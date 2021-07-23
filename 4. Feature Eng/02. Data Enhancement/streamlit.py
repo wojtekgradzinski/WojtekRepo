@@ -110,18 +110,20 @@ if rad == 'About us':
     st.markdown("***Task:***")
     st.markdown("Predicting a heart attack given a few data samples and with a constraint of avoiding overdoes")
     st.markdown("***Team Members:***")
-    st.markdown('* *Gozal*')	
-    st.markdown('* *Rajat *')	
-    st.markdown('* *Tinsae*')	
+    st.markdown('* *Wojtek*')	
+    st.markdown('* *Guiseppe*')	
+    st.markdown('* *Michael*')
+    st.markdown('* *Bilal*')
+    st.markdown('* *James*')	
 
 elif rad == 'Feature Engineering':
     st.markdown("## Feature Engineering")
 
     st.markdown("Corelation of features")
-    st.image('data/99.PNG')
+    #st.image('data/99.PNG')
 
     st.markdown("Age vs Cholesterol: Higher Age is more likely to have Heart Attack, although no correlation to cholesterol level")
-    st.image('data/Agevs.PNG')
+    #st.image('data/Agevs.PNG')
     
     st.markdown("Maximum Heart Rate vs Cholesterol. Surprisingly no correlation, as the spread of result is in all direction")
     st.image('data/2.PNG')
