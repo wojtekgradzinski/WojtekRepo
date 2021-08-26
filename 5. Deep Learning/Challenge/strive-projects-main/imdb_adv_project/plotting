@@ -1,0 +1,30 @@
+#RATING + DURATION
+#CONCLUSION : IN ADVENTURE, LONGER MOVIES WERE SLIGHTLY MORE APPRECIATED
+
+
+plt.figure(figsize=(10, 10))
+plt.scatter(
+    x = movieData['Ratings'], 
+    y = movieData['Duration'], 
+    s=2000,
+    c="magenta", 
+    alpha=0.6, 
+    edgecolors="white", 
+    linewidth=2);
+
+plt.xlabel('Ratings')
+plt.ylabel('Duration')
+
+
+
+#RATING + DIRECTOR
+
+plt.figure(figsize=(10, 10))
+movieData.groupby('Directors')['Ratings'].nunique().plot(kind='bar', cmap='RdYlBu')
+plt.show()
+
+
+#RELEASE YEAR + BOX OFFICE
+
+plt.figure(figsize=(10, 10))
+sns.scatterplot(data=movieData, x="Release Date", y="Gross Income", legend=False, s = 2000, cmap="Accent", alpha=0.7, edgecolors="grey", linewidth=2)
