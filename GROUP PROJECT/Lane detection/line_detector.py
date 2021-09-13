@@ -19,7 +19,7 @@ def region_of_interest(canny):
     height = canny.shape[0]
     width =canny.shape[1]
     
-    #zero_loke does not change the dimension of an input arrayq
+    #zero_loke does not change the dimension of an input array
     mask = np.zeros_like(canny)
     triangle = np.array([[(200, height),
                           (800, 350),
