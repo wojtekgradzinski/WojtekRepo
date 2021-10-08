@@ -44,7 +44,7 @@ MY_PROJECTS = [
         "githubLink":"https://github.com/wojtekgradzinski/WojtekRepo/tree/main/GROUP%20PROJECT/Lane%20detection"
     },
      {
-        "title":"Rock Scicors Paper BOT",
+        "title":"Rock Scisors Paper BOT",
         "description":"",
         "cover":"https://static.vecteezy.com/system/resources/thumbnails/000/691/497/small/rock-paper-scissors-neon-icons.jpg",
         "liveLink":"https://github.com/wojtekgradzinski/WojtekRepo/tree/main/GROUP%20PROJECT/ROCK%20SCISORS%20PAPER",
